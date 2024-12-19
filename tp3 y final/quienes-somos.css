@@ -1,0 +1,95 @@
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+#container-my-5 {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(fondo00.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+.who-we-are-section {
+  
+  padding: 60px 0;
+  padding-bottom: 100px;
+}
+
+.who-we-are-header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.who-we-are-header h2 {
+  font-size: 36px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.who-we-are-header p {
+  font-size: 20px;
+  color: #3b3b3b;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2;
+  
+}
+
+.who-we-are-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.who-we-are-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.who-we-are-text h3 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.who-we-are-text p {
+  font-size: 20px;
+  color: #3f3f3f;
+  line-height: 1.6;
+}
+
+.who-we-are-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .who-we-are-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .who-we-are-image {
+    margin-top: 20px;
+  }
+}
+
+h3{
+  font-weight: bold;
+}
